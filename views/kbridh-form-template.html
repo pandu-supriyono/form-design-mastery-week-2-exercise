@@ -32,7 +32,10 @@
         {{ super() }}
     {% endif %}
 
-    {% call hmpoForm(ctx) %}
+    {% block introductoryContent %}
+    {% endblock %}
+
+    {% call hmpoForm(ctx) %} 
         {% for fieldName in topLevelFields %}
             {{ hmpoField(ctx, fieldName, isPageHeading) }}
             {% set isPageHeading = false %}

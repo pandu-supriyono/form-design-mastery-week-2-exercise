@@ -7,3 +7,5 @@ const { router } = setup({
 });
 
 router.use(require('./lib/locals'));
+
+router.use('/trial-1', require('./wizards/trial-1'));

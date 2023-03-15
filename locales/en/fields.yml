@@ -1,0 +1,20 @@
+postcode:
+  label: Postcode
+
+number:
+  label: House number
+
+address-line:
+  label: Address line
+
+city:
+  label: City
+
+district:
+  label: District
+
+postcode-idn:
+  label: Postcode
+
+province:
+  label: Province

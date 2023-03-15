@@ -12,3 +12,5 @@ govuk:
 kbridh:
   embassy: The Embassy of the Republic of Indonesia
   embassyLocation: Demo
+validation:
+  required: You must answer this question

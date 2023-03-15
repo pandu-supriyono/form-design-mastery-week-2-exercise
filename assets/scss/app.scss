@@ -30,3 +30,9 @@ $govuk-global-styles: true;
 @import "node_modules/govuk-frontend/govuk/all";
 @import "node_modules/hmpo-components/all";
 @import "./components/all";
+
+.app-grey-box {
+  background-color: govuk-colour("light-grey");
+  padding: govuk-spacing(4);
+  margin-bottom: govuk-spacing(5);
+}
