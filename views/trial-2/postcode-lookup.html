@@ -1,0 +1,18 @@
+{% extends 'kbridh-form-template.html' %}
+
+{% block introductoryContent %}
+  <p>
+    Enter your postcode and house number and we will try to automatically
+    find your address.
+  </p>
+{% endblock %}
+
+{% block mainContent %}
+  {{ super() }}
+
+  <p>
+    <a href="/trial-2/manual-address">
+      Enter your address manually
+    </a>
+  </p>
+{% endblock %}

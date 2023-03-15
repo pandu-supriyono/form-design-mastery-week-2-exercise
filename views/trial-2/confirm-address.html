@@ -1,0 +1,23 @@
+{% extends 'kbridh-form-template.html' %}
+
+{% block innerContent %}
+  <h3 class="govuk-!-margin-bottom-2">Postcode</h3>
+  <p>{{ values.postcode }}</p>
+
+  <h3 class="govuk-!-margin-bottom-2">House number</h3>
+  <p>{{ values.number }}</p>
+
+  <div class="app-grey-box">
+    <p>We found the following address based on your answers:</p>
+    <p class="govuk-!-font-weight-bold">
+      Sesame street 101<br/>
+      1234 AX &nbsp; Amsterdam<br/>
+      Noord-Holland
+    </p>
+    <p class="govuk-!-margin-bottom-0">
+      <a href="/trial-2/postcode-lookup">
+        Change this address
+      </a>
+    </p>
+  </div>
+{% endblock %}

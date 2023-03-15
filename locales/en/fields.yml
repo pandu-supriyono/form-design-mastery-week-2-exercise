@@ -18,3 +18,11 @@ postcode-idn:
 
 province:
   label: Province
+
+select-address-country:
+  legend: Which address do you want to provide?
+  items:
+    nld:
+      label: My address in the Netherlands
+    idn:
+      label: My address in Indonesia
