@@ -1,3 +1,9 @@
+default:
+  title: Pandu's Form Design Mastery practice
+  content:
+    - '<a href="/trial-1">Trial 1 - alternatives as links</a>'
+    - '<a href="/trial-2">Trial 2 - alternatives as step options</a>'
+
 postcodeLookup:
   title: Your address in the Netherlands
 

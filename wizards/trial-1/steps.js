@@ -1,7 +1,7 @@
 module.exports = {
   '/': {
     entryPoint: true,
-    reset: true,
+    resetJourney: true,
     skip: true,
     next: 'postcode-lookup',
   },
