@@ -23,7 +23,7 @@ module.exports = {
     },
     views: ['views'],
     translation: {
-      allowedLangs: ['en', 'id'],
+      allowedLangs: ['en'],
       cookie: {
         name: 'kbridh-lang',
       },
